@@ -7,7 +7,6 @@ def main():
         print("Tente adivinhar um número de 1 a 20. Você tem 10 tentativas. \n")
         print("╔══════════ ❖ ══════════╗ ")
 
-        # Conecta com o servidor
         client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         client_socket.connect(('localhost', 8000))
 
